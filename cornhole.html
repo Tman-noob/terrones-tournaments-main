@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cornhole.css">
+    <link rel="stylesheet" href="css/cornhole-mq.css">
+
+    <link rel="icon" href="images/icon.png" type="image/icon type">
+
+    <title>LWC Cornhole Tournament</title>
+    <meta name="title" content="LWC Cornhole Tournament" />
+    <meta name="description" content="LWC Annual Cornhole Tournament - Register Now!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://terronestournaments.com/cornhole" />
+    <meta property="og:image" content="https://terronestournaments.com/cornhole-thumbnail.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+</head>
+<body>
+        <header>
+            <div class="content">
+                <div id="logo">
+                    <img src="images/logo-shadow.svg">
+                </div>
+                <div>
+                    <h1>LWC First Annual Cornhole Tournament</h1>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <p id="main-p">We are excited to announce Living Way's first ever cornhole tournament! You can register your cornhole team below or find more information about the tournament. We are inviting specatators to join us. Entry fee of $5, paid at the door. There will also be a concession stand for snacks and drinks!</p>
+            <p id="main-p">Before registering your cornhole team, please read through all the details and rules.</p>
+
+            <section id="details">
+                <h2>Tournament Details</h2>
+                
+                <div id="details-div">
+                    <div>
+                        <img src="images/details-img.svg">
+                    </div>
+                    <div id="details-content">
+                        <ul>
+                            <li><h3>Date & Time</h3>Deadline: March 3rd<br>Saturday, March 8th @ 10am</li>
+                            <li><h3>Location</h3>Living Way Church<br>2200 Longmire Rd<br>Conroe, TX 77304</li>
+                            <li><h3>Cost</h3>$50/Team ($25/Player)</li>
+                            <li><h3>Prize</h3>Not only will Victory be yours, but along with it comes the ultimate prize - custom made cornhole board set!</li>
+                            <li><h3>Rules</h3><a href="Corn Hole Rules.doc" target="_blank"
+                                rel="noopener" ><strong>Click to VIEW RULES</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section">
+                <h2>Team Registration</h2>
+                <p>Fill out the form and when you hit "Submit" it will take you to our checkout page on Square. Please complete your payment at the time of registration.</p>
+                
+                <div id="form-div">
+                    <form id="registration-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="31a0601c-e412-4dc1-ada0-39ba0cebb1fd">
+                        <input type="hidden" name="from_name" value="Cornhole Tournaments">
+                        <input type="hidden" name="subject" value="New Cornhole Registration!">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <input type="text" placeholder="Team Name" id="team-name" name="Team Name" required>
+                        <input type="email" placeholder="Team Captain Email" id="team-email" name="Team Caption's Email" required>
+                        <input type="tel" placeholder="Team Captain Phone #" id="team-phone" name="Team Caption's Phone #" required>
+                        <textarea id="team-players" placeholder="Player Names" name="Team Players" required></textarea>
+
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <input type="hidden" name="redirect" value="https://square.link/u/a7g8qgEk">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section id="contact">
+                <div id="contact-content">
+                    <h2>Contact Us</h2>
+                    <p>Send us a message and we'll get back to you as soon as we can.</p>
+                </div>
+                <div id="line"></div>
+
+                <div id="contact-form">
+                    <form  method="POST" id="form" >
+                    <!-- <form action="https://api.web3forms.com/submit" method="POST" onsubmit="return showAlert()"> -->
+                    <!-- <form data-netlify="true" method="POST" onsubmit="return showAlert()"> -->
+
+                        <input type="hidden" name="access_key" value="31a0601c-e412-4dc1-ada0-39ba0cebb1fd">
+                        <input type="hidden" name="from_name" value="Terrones Tournaments">
+                        <input type="hidden" name="subject" value="New Message From Website!">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    
+
+                        <div>
+                            <input type="text" name="Name" id="name" placeholder="Name" required>
+                        </div>
+                        
+                        <div>
+                            <input type="email" name="Email" id="email" placeholder="Email" required>
+                        </div>
+
+                        <div>
+                            <input type="tel" name="Number" id="number" placeholder="Phone #" required>
+                        </div>
+                        
+                        <div>
+                            <textarea name="Message" id="message" placeholder="Message" required></textarea>
+                        </div>
+                                        
+                        <!-- Custom Confirmation / Success Page -->
+                        <!-- <input type="hidden" name="redirect" value=""> -->
+                    
+                        <button type="submit"">Send Message</button>
+                        <div id="result"></div>
+                    
+                    </form>
+                </div>
+            </section>
+
+            <foot>
+                <p>&copy; 2025 Terrones Tournament. All rights reserved.</p>
+                <p>Designed & Developed by Timothy Greer</p>
+            </foot>
+        </footer>
+        <script src="cornhole.js">
+        </script>
+</body>
+
+</html>

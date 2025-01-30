@@ -1,0 +1,128 @@
+@media (min-width: 667px) {
+    header {
+        padding: 15vw 8em;
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 2rem; 
+        padding-bottom: 3em;    
+    }
+}
+
+@media screen and (min-width: 856px) {
+    header {
+        padding: 5vw 2em; 
+        height: 50vh; 
+    }
+
+    header h1 {
+        font-size: 3rem; 
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    #details-div {
+        display: flex;
+        justify-content: space-between; /* Even spacing between items */
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    #details-div img {
+        flex: 1; /* Allow the image to grow equally with the content */
+        max-width: 600px; /* Prevent it from exceeding 600px */
+        min-width: 300px; /* Prevent it from becoming too small */
+    }
+
+    #details-content {
+        flex: 1; /* Match the image's size */
+        max-width: 600px; /* Consistent size with the image */
+        width: 100%;
+        min-width: 300px; /* Prevent it from becoming too small */
+    }
+
+    #form p {
+        text-align: center;
+        max-width: 40em;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+
+    #team-name,
+    #team-email,
+    #team-phone,
+    #team-players {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    #team-players {
+        width: 13em;
+        height: 5em;
+    }
+    #form-div button {
+        padding: 12px 70px;
+        font-size: 1.5em;
+    }
+    #form-div button:hover {
+        background-color: #716f74;
+
+    }
+
+    #contact {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    #contact-content {
+        text-align: left;
+        max-width: 400px;
+    }
+
+    #line {
+        width: 3px;
+        height: 45vh; 
+        max-height: 30em;
+        margin: 0 50px;
+    }
+
+    #contact-form {
+        font-size: 1.4rem;
+    }
+
+    #contact-form input {
+        font-size: 1.4rem;
+    }
+    #contact-form textarea {
+        font-size: 1.4rem;
+    }
+
+    #contact-form input:focus,
+    #contact-form textarea:focus {
+        font-size: 1.4rem;
+    }
+
+    #contact-form button {
+        padding: 10px 40px;
+        font-size: 1.1em;
+    }
+    #contact-form button:hover {
+        background-color: #716f74;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    h3 {
+        margin-bottom: .46em;
+    }
+}
