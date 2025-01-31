@@ -1,23 +1,17 @@
-@media (min-width: 667px) {
-    /* header {
-        padding: 1vw 5em;
-    }
+@media (orientation: landscape) {
+    header {
+        margin: 0 auto;
+        }
+}
 
-    h1 {
-        font-size: 2rem; 
-        padding-bottom: 3em;    
-    } */
+@media screen and (min-width: 640px) {
+    header {
+        height: 800px;
+    }
 }
 
 @media screen and (min-width: 856px) {
-    header {
-        padding: 1vw 5em; 
-        height: 70vh; 
-    }
 
-    header h1 {
-        font-size: 3rem; 
-    }
 
     h2 {
         font-size: 2rem;
@@ -39,18 +33,22 @@
 
     #details {
         max-width: 1200px;
+        padding: 0;
+        margin: 0 auto;
+        
     }
 
     #details-div {
         display: flex;
         justify-content: space-between;
         align-items: stretch; /* Ensures both elements are equal height */
-        gap: 10px;
+        gap: 20px;
     }
 
     #details-div img {
         flex: 1;
-        max-width: 700px;
+        width: 500px;
+        max-width: 800px;
         min-width: 300px;
         height: 100%; /* Match the height of the content */
         object-fit: cover; /* Prevents distortion */
@@ -58,8 +56,8 @@
 
     #details-content {
         flex: 1;
-        max-width: 700px;
-        width: 100%;
+        max-width: 800px;
+        width: 500px;
         min-width: 300px;
         height: 100%; /* Ensures it matches the image height */
         display: flex;
@@ -76,7 +74,7 @@
     }
 
     #registration p {
-        text-align: center;
+        text-align: left;
         max-width: 40em;
         margin: 0 auto;
         margin-bottom: 2em;
@@ -111,9 +109,19 @@
     }
 
     #contact-content {
-        text-align: left;
-        max-width: 400px;
+        max-width: 550px;
     }
+
+    #contact-content h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #contact-content p {
+        text-align: left;
+        margin: 1em 1em;
+    }
+
 
     #line {
         width: 3px;
@@ -154,6 +162,18 @@
 }
 
 @media screen and (min-width: 1200px) {
+    header {
+        padding: 10em; 
+        max-height: 50vh; 
+    }
+
+    header #content {
+        margin-top: em;
+    }
+
+    header h1 {
+        font-size: 3rem; 
+    }
     #details-div {
         max-width: 90%; /* Allow more width */
         margin: 0 auto; /* Center it */

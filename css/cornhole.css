@@ -16,19 +16,21 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
-    padding: 10vw 2em;
+    padding: 0;
+    padding-top: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     max-width: 100%;
 }
 
 header .content {
     max-width: 80%; 
     margin: 0 auto; 
+    margin-top: 0;
 }
 
 #logo img {
