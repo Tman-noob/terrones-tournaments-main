@@ -23,7 +23,7 @@ body {
     max-width: 400px;
     width: 75%;
     background: rgba(0, 0, 0, 0.548); /* Light background for visibility */
-    padding: 10vw 3em;
+    padding: 5vw 2em;
     margin: 0 auto;
     border-radius: 20px; /* Optional: rounded edges */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
@@ -58,14 +58,15 @@ a {
     font-family: "Inter Tight";
     font-weight: 500;   
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 1.2em;
 
 }
 
 a:hover {
-    background-color: #5e5863;
+    color: #ff7777;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     .container {
         max-width: 600px; /* Increased max-width for tablet and desktop */
         padding: 5vw 3em; /* Adjust padding for better layout */
