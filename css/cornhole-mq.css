@@ -49,7 +49,7 @@
         min-width: 300px; /* Prevent it from becoming too small */
     }
 
-    #form p {
+    #registration p {
         text-align: center;
         max-width: 40em;
         margin: 0 auto;

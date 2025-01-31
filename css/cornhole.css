@@ -118,7 +118,7 @@ a {
 }
 
 #details,
-#form,
+#registration,
 #contact {
     padding-bottom: 2rem;
 }
@@ -227,7 +227,7 @@ footer {
 
 #contact-form input {
     font-size: 1.2rem;
-    padding: 5px;
+    padding: 6px;
     margin: 5px;
     border-radius: 5px;
     border: 2px solid ;
@@ -240,7 +240,8 @@ footer {
 #contact-form textarea {
     font-size: 1.2rem;
     margin: 5px;
-    width: 13em;
+    padding: 6px;
+    width: 12.8em;
     height: 6em;
     border-radius: 5px;
     border: 2px solid #797574;

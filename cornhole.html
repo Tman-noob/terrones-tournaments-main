@@ -54,16 +54,15 @@
                 </div>
             </section>
 
-            <section">
+            <section id="registration">
                 <h2>Team Registration</h2>
                 <p>Fill out the form and when you hit "Submit" it will take you to our checkout page on Square. Please complete your payment at the time of registration.</p>
                 
                 <div id="form-div">
                     <form id="registration-form" action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="31a0601c-e412-4dc1-ada0-39ba0cebb1fd">
-                        <input type="hidden" name="from_name" value="Cornhole Tournaments">
+                        <input type="hidden" name="from_name" value="Cornhole Tournament">
                         <input type="hidden" name="subject" value="New Cornhole Registration!">
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <input type="text" placeholder="Team Name" id="team-name" name="Team Name" required>
                         <input type="email" placeholder="Team Captain Email" id="team-email" name="Team Caption's Email" required>
@@ -89,15 +88,10 @@
 
                 <div id="contact-form">
                     <form  method="POST" id="form" >
-                    <!-- <form action="https://api.web3forms.com/submit" method="POST" onsubmit="return showAlert()"> -->
-                    <!-- <form data-netlify="true" method="POST" onsubmit="return showAlert()"> -->
 
                         <input type="hidden" name="access_key" value="31a0601c-e412-4dc1-ada0-39ba0cebb1fd">
                         <input type="hidden" name="from_name" value="Terrones Tournaments">
                         <input type="hidden" name="subject" value="New Message From Website!">
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-                    
 
                         <div>
                             <input type="text" name="Name" id="name" placeholder="Name" required>
@@ -114,9 +108,8 @@
                         <div>
                             <textarea name="Message" id="message" placeholder="Message" required></textarea>
                         </div>
-                                        
-                        <!-- Custom Confirmation / Success Page -->
-                        <!-- <input type="hidden" name="redirect" value=""> -->
+
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                     
                         <button type="submit"">Send Message</button>
                         <div id="result"></div>
@@ -126,7 +119,7 @@
             </section>
 
             <foot>
-                <p>&copy; 2025 Terrones Tournament. All rights reserved.</p>
+                <p>&copy; 2025 Terrones Tournaments. All rights reserved.</p>
                 <p>Designed & Developed by Timothy Greer</p>
             </foot>
         </footer>
