@@ -2,9 +2,6 @@
     .image-wrapper {
         margin-top: 5em;
     }
-    
-    .image-wrapper::after {
-    }
     .image-wrapper img {
         width: 20vw;  /* Adjust for landscape */
         max-width: 200px;
@@ -37,7 +34,7 @@
 @media (min-width: 1024px) {
     .image-wrapper img {
         width: 80vw;
-        max-width: 600px;
+        max-width: 400px;
     }
     header {
         margin: 2em;

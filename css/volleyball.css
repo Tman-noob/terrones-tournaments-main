@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background-image: url("/images/construction1.jpg");
+    background-image: url("../images/construction1.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -21,11 +21,8 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 header h1 {
@@ -62,7 +59,7 @@ header h1 {
 .image-wrapper img {
     border-radius: 80px;
     width: 70vw;
-    max-width: 600px;
+    max-width: 500px;
     min-width: 100px;
     height: auto;
     object-fit: cover;
