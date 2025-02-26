@@ -79,12 +79,13 @@ main .content {
 
 main .content h2 {
     margin-top: 0;
+    margin-bottom: 3rem;
 }
 
 main .content h3 {
     font-size: 1.5em;
     text-align: left;
-    margin-top: 1em;
+    margin-top: 3rem;
     margin-bottom: 1em;
 }
 
@@ -109,6 +110,7 @@ main .content span {
 #details img {
     border-radius: 8px;
     max-width: 1000px;
+    margin-bottom: 3rem;
 }
 
 #details {
@@ -117,7 +119,7 @@ main .content span {
 }
 
 #details h2 {
-    margin-bottom: 1.7em;
+    margin-bottom: 3.5rem;
 }
 
 #details-content {
@@ -134,14 +136,15 @@ ul {
 }
 
 #details-content h3 {
-    margin-bottom: .5em;
+    margin: 1rem 0;
     font-size: 1.5em;
 }
 
 li {
     font-size: 1.2em;
     padding-left: 1.2em;
-    line-height: 2;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 a {
