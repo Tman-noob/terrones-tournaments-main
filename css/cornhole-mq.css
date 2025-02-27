@@ -4,12 +4,6 @@
         }
 }
 
-@media screen and (min-width: 640px) {
-    header {
-        height: 800px;
-    }
-}
-
 @media screen and (min-width: 747px) {
     #contact {
         flex-direction: row;
@@ -28,7 +22,7 @@
 
     #contact-content p {
         text-align: center;
-        margin: 1em 1em;
+        margin: 1rem 0;
     }
 
 
@@ -120,59 +114,61 @@
 @media screen and (min-width: 1200px) {
     header {
         padding: 10em; 
-        max-height: 50vh;
-        background-position: bottom center;
-    }
-
-    header #content {
-        margin-top: em;
+        height: 50vh;
+        background-position: center 65%;
+        background-size: 100rem;
     }
 
     header h1 {
         font-size: 3rem; 
     }
-    #details-div {
-        max-width: 90%;
-        margin: 0 auto; 
-    }
 
-    #details-div img,
-    #details-content {
-        max-width: 900px;
-        flex-grow: 1;
+    #details {
+        width: 100%;
+        padding: 2rem 0;
+        margin: 0;
+        margin-bottom: 2rem;
     }
-        #details {
-        max-width: 1200px;
-        padding: 0;
+    
+    .details-content {
+        max-width: 600px;
         margin: 0 auto;
-        
+        padding: 0 2rem;
     }
 
     #details-div {
         display: flex;
         justify-content: space-between;
         align-items: stretch; 
-        gap: 20px;
+        gap: 30px;
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+
+    #details-div > div {
+        flex: 1; 
+        min-width: 0;
     }
 
     #details-div img {
-        flex: 1;
-        width: 500px;
-        max-width: 800px;
-        min-width: 300px;
-        height: 100%; 
-        object-fit: cover; 
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        max-width: none; 
+        margin-bottom: 0; 
     }
 
     #details-content {
         flex: 1;
-        max-width: 800px;
-        width: 500px;
-        min-width: 300px;
+        width: 100%;
+        max-width: none; 
+        min-width: 0;
         height: 100%; 
         display: flex;
         flex-direction: column;
-        justify-content: center; 
+        justify-content: center;
     }
 
     #details-content h3 {
