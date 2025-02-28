@@ -129,11 +129,12 @@
         margin: 0;
         margin-bottom: 2rem;
     }
+    #details ul {
+        padding: 0 2rem;
+    }
     
     .details-content {
         max-width: 600px;
-        margin: 0 auto;
-        padding: 0 2rem;
     }
 
     #details-div {

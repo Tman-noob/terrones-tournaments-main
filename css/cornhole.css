@@ -109,6 +109,7 @@ main .content span {
 }
 
 #details img {
+    box-sizing: border-box;
     border-radius: 8px;
     margin-bottom: 3rem;
     display: none;
@@ -136,8 +137,9 @@ main .content span {
 }
 
 #details-content {
+    box-sizing: border-box;
     background-color: #faf5f5;
-    padding: 1em 1em;
+    padding: 1em 2em;
     text-align: left;
     border: 1px solid #d3d3d3;
     border-radius: 10px;
@@ -158,8 +160,8 @@ ul {
 
 li {
     font-size: 1.2em;
-    padding-left: 1.2em;
-    line-height: 1.5;
+    padding-left: 1em;
+    line-height: 1.8;
     margin-bottom: 2rem;
 }
 
