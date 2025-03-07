@@ -51,6 +51,6 @@ if (form) {
 }
 
 
-// function declineFunction() {
-//     alert("❌ Team registration is now closed. The deadline has passed, and we are no longer accepting new teams. Thank you for your interest!")
-// }
+function declineFunction() {
+    alert("❌ Team registration is now closed. The deadline has passed, and we are no longer accepting new teams. Thank you for your interest!")
+}
