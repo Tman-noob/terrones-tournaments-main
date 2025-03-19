@@ -8,8 +8,8 @@
 
     <link rel="icon" href="images/icon.png" type="image/icon type">
 
-    <title>LWC Volleyball Tournament</title>
-    <meta name="title" content="LWC Volleyball Tournament" />
+    <title>Volleyball Tournament</title>
+    <meta name="title" content="Volleyball Tournament" />
     <meta name="description" content="Register for LWC's Volleyball Tournament Now!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://terronestournaments.com/volleyball.html" />
@@ -21,18 +21,134 @@
 
 <body>
     <header>
-        <h1>SITE UNDER CONSTRUCTION</h1>
+        <div class="content">
+            <div id="logo">
+                <img src="images/logo-vball.svg" alt="Terrones Tournament's logo">
+            </div>
+            <div>
+                <h1>LWC Annual Volleyball Tournament</h1>
+            </div>
+        </div>
     </header>
 
-    <div class="cornhole">
-        <a href="cornhole.html">
-            <div class="image-wrapper">
-                <img src="index-cornhole.png">
+    <main>
+        <div class="content">
+            <h2>Join Us for Living Way’s Annual Volleyball Tournament!</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, provident sequi. Id dolorem ad quod ipsum hic atque! Nisi voluptates dolorum deleniti alias sapiente officia accusamus at esse architecto quam!</p>
+            <h3>More Content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus doloribus fugit cupiditate magnam nobis est ratione praesentium dolorum neque, inventore facilis ducimus sapiente eius cumque. Fuga officiis neque accusamus odio!</p>
+            <h3>More Content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ducimus, beatae itaque temporibus placeat perspiciatis exercitationem fugiat repellendus modi libero quo assumenda quisquam sequi rerum impedit ipsa iste adipisci soluta.</p>
+            <h3>More Content</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae laudantium eum est beatae maxime, consequatur quasi sunt quisquam quia voluptas aliquid laborum consectetur veritatis provident commodi quidem optio? Enim, autem.</p>
+        </div>
+
+    </main>
+
+    <section id="details">
+            <h2>Tournament Details</h2>
+            
+            <div id="details-div">
+                <div>
+                    <img src="images/volleyball-details1.png" alt="Cornhole boards">
+                </div>
+                <div id="details-content">
+                    <ul>
+                        <h3>Date & Time</h3>
+                        <li>
+                            <strong>Registration Deadline:</strong> March 3rd<br>
+                            <strong>Tournament Date:</strong> Saturday, March 8th<br>
+                            <strong>Time:</strong> 10:00 AM
+                        </li>
+                        <h3>Location</h3>
+                        <li>
+                            <strong>Living Way Church</strong><br>2200 Longmire Rd<br>Conroe, TX 77304
+                        </li>
+                        <h3>Entry Fee</h3>
+                        <li>
+                            $50/Team (<em>$25/Player</em>)
+                        </li>
+                        <h3>Prize 🏆</h3>
+                        <li>
+                            Claim victory and take home the ultimate reward—a <strong>custom-made cornhole board set!</strong>
+                        </li>
+                        <h3>Rules & Guidelines 📜</h3>
+                        <li><a href="Corn Hole Rules.doc" target="_blank"
+                            rel="noopener" ><strong><span>Click to VIEW RULES</span></strong></a></li>
+                    </ul>
+                </div>
             </div>
-        </a>
-        <a href="cornhole.html">
-            <h2>Click to go to our Cornhole Tournament!</h2>
-        </a>
-    </div>
+    </section>
+
+    <main class="second-main">
+
+        <section id="registration">
+            <h2>Team Registration</h2>
+            <p>Ready to compete? Fill out the form below to register your team. Once you hit "<strong><em>Submit</em></strong>," you'll be redirected to our secure Square checkout page to complete your payment.</p>
+            <p><strong>Registration is not complete until payment is received</strong>, so be sure to finalize your entry to secure your spot in the tournament. We can’t wait to see you on game day!</p>
+            
+            <div id="form-div">
+                <!-- <form id="registration-form" action="https://api.web3forms.com/submit" method="POST"> -->
+                <form id="registration-form">
+
+                    <!-- <input type="hidden" name="access_key" value="6a97cd75-c3fa-49c8-924c-9d07ec079bdc"> -->
+                    <input type="hidden" name="from_name" value="Cornhole Tournament">
+                    <input type="hidden" name="subject" value="New Cornhole Registration!">
+
+                    <input type="text" placeholder="Team Name" id="team-name" name="Team Name" required>
+                    <input type="email" placeholder="Team Captain Email" id="team-email" name="Team Caption's Email" required>
+                    <input type="tel" placeholder="Team Captain Phone #" id="team-phone" name="Team Caption's Phone #" required>
+                    <textarea id="team-players" placeholder="Player Names" name="Team Players" required></textarea>
+
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <!-- <input type="hidden" name="redirect" value="https://square.link/u/a7g8qgEk"> -->
+                    <button type="submit" onclick="declineFunction()">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <div id="contact-content">
+                <h2>Contact Us</h2>
+                <p>Have a question or need more information? Send us a message, and we’ll get back to you as soon as possible!</p>
+            </div>
+            <div id="line"></div>
+
+            <div id="contact-form">
+                <form  method="POST" id="form" >
+
+                    <!-- <input type="hidden" name="access_key" value="31a0601c-e412-4dc1-ada0-39ba0cebb1fd"> -->
+                    <input type="hidden" name="access_key" value="6a97cd75-c3fa-49c8-924c-9d07ec079bdc">
+                    <input type="hidden" name="from_name" value="Terrones Tournaments">
+                    <input type="hidden" name="subject" value="New Message From Website!">
+
+                    
+                    <input type="text" name="Name" id="name" placeholder="Name" required>
+                    
+                    <input type="email" name="Email" id="email" placeholder="Email" required>
+
+                    <input type="tel" name="Number" id="number" placeholder="Phone #" required>
+                
+                    <textarea name="Message" id="message" placeholder="Message" required></textarea>
+
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                    <button type="submit"">Send Message</button>
+                    <div id="result"></div>
+                
+                </form>
+            </div>
+        </section>
+
+        <foot>
+            <p>&copy; 2025 Terrones Tournaments. All rights reserved.</p>
+            <p>Designed & Developed by Timothy Greer</p>
+        </foot>
+    </footer>
+    <script src="cornhole.js">
+    </script>
 </body>
 </html>
