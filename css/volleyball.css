@@ -13,25 +13,28 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.479) 20%, rgba(0, 0, 0, 0.479) 80%, rgba(0, 0, 0, 0.623) 100%),
-    url('../images/volleyball-background-mobile.jpg');
-    /* background-position: center; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    line-height: 1.2;
     padding: 0;
     padding-top: 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
     max-width: 100%;
 }
 
+.header-background {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.479) 20%, rgba(0, 0, 0, 0.479) 80%, rgba(0, 0, 0, 0.623) 100%),
+    url('../images/volleyball-background-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 header .content {
+    line-height: 1.2;
     max-width: 80%; 
     margin: 0 auto; 
     margin-top: 0;
