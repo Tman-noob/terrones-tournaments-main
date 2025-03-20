@@ -36,7 +36,7 @@ header {
     z-index: 1;
 }
 
-header .content {
+ header .content {
     line-height: 1.2;
     max-width: 80%; 
     margin: 0 auto; 
@@ -168,7 +168,7 @@ main .content span {
     width: 100%;
 }
 
-#details img {
+/* #details img {
     box-sizing: border-box;
     border-radius: 8px;
     margin-bottom: 3rem;
@@ -176,14 +176,14 @@ main .content span {
     -webkit-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
     -moz-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
     box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
-}
+} */
 
 
 #details {
     width: 100%;
     margin: 0 auto;
     font-family: "Inter Tight";
-    /* background-color: #242629; */
+    background-color: #242629;
     padding-top: 10px;
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.479) 20%, rgba(0, 0, 0, 0.479) 80%, rgba(0, 0, 0, 0.623) 100%),
     url(../images/volleyball-details1.png);
@@ -193,9 +193,11 @@ main .content span {
     background-size: cover; */
 }
 
-#details-div {
+/* #details-div {
     padding: 1rem;
-}
+    text-align: left;
+    padding: 1rem;
+} */
 
 #details h2 {
     color: #302f2f;
@@ -206,9 +208,9 @@ main .content span {
     text-shadow: 3px 3px 3px rgba(0,0,0,0.64);
 }
 
-#details-content {
+/* #details-content {
     box-sizing: border-box;
-    background-color: #242629;
+    background-color: #16161a;
     padding: 1em 2em;
     margin-bottom: 3rem;
     text-align: left;
@@ -218,9 +220,37 @@ main .content span {
     -webkit-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
     -moz-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
     box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
+} */
+
+.details-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    max-width: 60rem;
+    padding: 0 1rem;
 }
 
-ul {
+.card {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    min-height: 12rem;
+    max-width: 400px;
+    background-color: #16161a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    color: #fffffe;
+    font-size: 1.7rem;
+}
+
+/* ul {
     list-style: none;
     padding-left: 0;
 }
@@ -237,7 +267,7 @@ li {
     line-height: 1.8;
     margin-bottom: 2rem;
     color: #94a1b2;
-}
+} */
 
 a {
     color: #2351c4;
