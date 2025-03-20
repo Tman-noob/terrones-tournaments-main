@@ -118,6 +118,7 @@
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.281) 20%, rgba(0, 0, 0, 0.274) 80%, rgba(0, 0, 0, 0.7) 100%),
         url('../images/volleyball-background-desktop.jpg');
         background-position: center;
+        background-attachment: fixed;
     }
 
     header h1 {
@@ -134,6 +135,8 @@
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.479) 20%, rgba(0, 0, 0, 0.479) 80%, rgba(0, 0, 0, 0.623) 100%),
         url(../images/vollbeyball-details1-wide.png);
         background-position: center;
+        background-attachment: fixed;
+
     }
     #details ul {
         padding: 0 2rem;
