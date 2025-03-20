@@ -117,8 +117,14 @@
     header {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.281) 20%, rgba(0, 0, 0, 0.274) 80%, rgba(0, 0, 0, 0.7) 100%),
         url('../images/volleyball-background-desktop.jpg');
+        background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .bg-container {
+        display: none;
     }
 
     header h1 {
@@ -136,6 +142,8 @@
         url(../images/vollbeyball-details1-wide.png);
         background-position: center;
         background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
 
     }
     #details ul {
