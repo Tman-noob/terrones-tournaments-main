@@ -18,6 +18,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     line-height: 1.2;
     padding: 0;
     padding-top: 0;
@@ -131,11 +132,15 @@ main .content span {
     width: 100%;
     margin: 0 auto;
     font-family: "Inter Tight";
-    color: #302f2f;
-    color: #352c21;
-    color: #fffffe;
+    /* color: #fffffe; */
     background-color: #242629;
     padding-top: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.479) 20%, rgba(0, 0, 0, 0.479) 80%, rgba(0, 0, 0, 0.623) 100%),
+    url(../images/volleyball-details1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #details-div {
@@ -147,21 +152,18 @@ main .content span {
     color: #352c21;
     color: #fffffe;
     padding: 2rem 0 1rem 2rem;
-    letter-spacing: 1px;
+    font-size: 1.9rem;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.64);
 }
 
 #details-content {
     box-sizing: border-box;
-    background-color: #faf5f5;
-    background-color: #E9E4D7;
     background-color: #242629;
-    background-color: #16161a;
-    background-color: #242629;
-
-
     padding: 1em 2em;
+    margin-bottom: 3rem;
     text-align: left;
     border: 1px solid #d3d3d3;
+    border: 1px solid #010101;
     border-radius: 10px;
     -webkit-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
     -moz-box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.38);
@@ -176,6 +178,7 @@ ul {
 #details-content h3 {
     margin: 1rem 0;
     font-size: 1.5em;
+    color: #fffffe;
 }
 
 li {
@@ -183,11 +186,12 @@ li {
     padding-left: 1em;
     line-height: 1.8;
     margin-bottom: 2rem;
+    color: #94a1b2;
 }
 
 a {
-    color: rgb(156, 0, 0);
     color: #2351c4;
+    color: #774aff;
     text-decoration: none;
 }
 
@@ -214,11 +218,13 @@ a {
 
 #registration p {
     line-height: 2;
+    padding-bottom: 1rem;
 }
 
 #registration-form input,
 #registration-form textarea {
-    background-color: #fff7e8;
+    background-color: #242629;
+    border: 1px solid #010101;
     width: 90%;
     max-width: 400px;
 }
@@ -230,32 +236,36 @@ a {
     font-size: 1.2rem;
     padding: 8px;
     font-family: "Inter Tight";
-    border: 2px solid #d3d3d3;
+    color: #94a1b2;
 }
 
 #team-players {
     height: 5em;
-    color: #302f2f;
+    color: #94a1b2;
 }
 
 #team-players:focus,
 #team-name:focus,
 #team-email:focus,
 #team-phone:focus {
-    color: #302f2f;
+    background-color: #5a5858;
+    color: #fffffe;
+    border: 1px solid #010101;
+    outline: none;
 }
 
+
+
 #form-div {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 #form-div button {
-    /* background-color: #4c4a4e; */
-    background-color: #503d3b;
-
+    background-color: #242629;
+    background-color: #210e5a;
     color: #faf5f5;
-    width: 65%;
-    max-width: 250px;
+    width: 80%;
+    max-width: 300px;
     height: 55px;
     max-height: 60px;
     border-style: none;
@@ -276,14 +286,13 @@ a {
 
 #form-div button:hover {
     /* background-color: #716f74; */
-    background-color: #725754;
+    background-color: #2f1480;
 }
 
 footer {
-    /* background-color: #4c4a4e; */
-    background-color: #352826;
+    /* background-color: #4c4a4e;
+    background-color: #352826; */
     background-color: #242629;
-
     font-family: "Inter Tight";
     margin: 0 auto;
     padding: 0;
@@ -299,9 +308,8 @@ footer {
     align-items: center;
     gap: 0px;
     margin-top: 3em;
-    padding: 40px 5px;
+    padding: 1rem;
     border-radius: 10px;
-    /* font-size: 1.2rem; */
     color: #faf5f5;
        
 } 
@@ -312,27 +320,23 @@ footer {
 }
 
 #contact h2 {
-    margin: 0;
-    padding-top: 0;
+    font-size: 1.9rem;    
+    padding: 3rem 0 .5rem 1rem;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.51);
-}
-
-#contact h2 {
-    margin: 0 1rem;
 }
 
 #contact p {
     line-height: 1.5;
-    margin: 1em 1em;
+    padding: 0 1rem 2rem 1rem;
 
 }
 
 #line {
     background-color: #8b8b8a;
     width: 90%;
-    height: 3px;
+    height: 2px;
     border-radius: 5px;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 #contact-form {
@@ -340,7 +344,6 @@ footer {
     flex-direction: column;
     justify-self: center;
     align-items: center;
-    /* gap: 30px; */
 }
 
 #name,
@@ -349,8 +352,9 @@ footer {
 #message {
     padding: 9px;
     font-family: "Inter Tight";
-    border: 2px solid #797574;
-    background-color: #352826;
+    border: 2px solid #646a74;
+    background-color: #16161a;
+    background-color: #242629;
     color: #faf5f5;
 }
 
@@ -373,8 +377,8 @@ footer {
 #contact-form textarea:focus {
     color: #faf5f5;
     font-size: 1.2rem;
-    background-color: #5e5d5f;
-    background-color: #725754;
+    /* background-color: #5e5d5f; */
+    background-color: #4a4e53;
     outline: none;
     font-family: "Inter Tight";
 }
@@ -389,10 +393,9 @@ footer {
     width: 80%;
     max-width: 300px;
     height: 55px;
-    background-color: #4c4a4e;
-    background-color: #352826;
-
-    border: 2px solid #797574;
+    /* background-color: #4c4a4e; */
+    background-color: #242629;
+    border: 2px solid #646a74;
     color: #faf5f5;
     border-radius: 5px;
     padding: 10px 20px;
@@ -409,7 +412,7 @@ footer {
 
 #contact-form button:hover {
     /* background-color: #716f74; */
-    background-color: #725754;
+    background-color: #44484e;
 }
 
 #contact-form button:focus,
@@ -422,7 +425,6 @@ foot {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #c5c2c2;
     margin: 2em;
     padding-bottom: 1em;
     padding-top: 2em;
@@ -430,6 +432,7 @@ foot {
 }
 
 foot p {
+    color: #7b838f;
     margin: 0 auto;
     padding: .5em;
     padding-bottom: em;
