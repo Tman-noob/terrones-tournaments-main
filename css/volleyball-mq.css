@@ -114,7 +114,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .header-background {
+    header {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.281) 20%, rgba(0, 0, 0, 0.274) 80%, rgba(0, 0, 0, 0.7) 100%),
         url('../images/volleyball-background-desktop.jpg');
         background-position: center;
