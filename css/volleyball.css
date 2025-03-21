@@ -323,7 +323,7 @@ a {
 #team-email,
 #team-phone,
 #team-players {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 8px;
     font-family: "Inter Tight";
     color: #94a1b2;
@@ -435,7 +435,7 @@ footer {
     border: 2px solid #646a74;
     background-color: #242629;
     color: #faf5f5;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #contact-form input,
@@ -459,7 +459,6 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
     color: #faf5f5;
-    font-size: 1.5rem;
     background-color: #4a4e53;
     outline: none;
     font-family: "Inter Tight";
