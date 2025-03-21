@@ -4,12 +4,45 @@
         }
 }
 
+@media screen and (min-width: 689px) {
+    .details-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 46.9%;
+        margin-bottom: 1.5rem;
+        height: 275px;
+    }
+    /* .details-content {
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+    } */
+}
 @media screen and (min-width: 747px) {
+    /* .details-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } */
+    .card p {
+        line-height: 1.7;
+    }
+    
+    
     #contact {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         gap: 5px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
     #contact-content {
@@ -92,6 +125,9 @@
     #details h2 {
         padding: 1rem 0 1rem 0;
     }
+    .card p {
+        font-size: 1.3rem;    
+    }
 
     #team-name,
     #team-email,
@@ -127,14 +163,13 @@
         background-repeat: no-repeat;
     }
 
-    .bg-container {
-        display: none;
-    }
-
     header h1 {
         font-size: 3rem;
         text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.568);
 
+    }
+    .bg-container {
+        display: none;
     }
 
     #details {
@@ -142,6 +177,7 @@
         padding: 2rem 0;
         margin: 0;
         margin-bottom: 2rem;
+        padding-bottom: 5rem;
         /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.479) 20%, rgba(0, 0, 0, 0.479) 80%, rgba(0, 0, 0, 0.623) 100%),
         url(../images/vollbeyball-details1-wide.png);
         background-position: center;
@@ -153,13 +189,6 @@
 
     #details ul {
         padding: 0 2rem;
-    }
-    
-
-    .details-content {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
     }
     
 
