@@ -42,6 +42,31 @@ header {
     z-index: 2;
 }
 
+.cta button {
+    width: 41%;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    margin: .5rem;
+    font-family: "Inter Tight";
+    font-weight: 600;
+    letter-spacing: .5px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cta .details {
+    background-color: #313233;
+    color: #faf5f5;
+}
+
+.cta .register {
+    background-color: #1400cc;
+    color: #faf5f5;
+}
+
 /* header {
     padding: 0;
     padding-top: 0;
@@ -203,8 +228,6 @@ main .content span {
 } */
 
 #details h2 {
-    color: #302f2f;
-    color: #352c21;
     color: #fffffe;
     padding: 2rem 0 1rem 2rem;
     font-size: 1.9rem;
